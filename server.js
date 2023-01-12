@@ -9,9 +9,12 @@ const app = express();
 // Middleware for parsing JSON and URLencoded forms
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api', api); // API route
 
-app.use(express.static('public')); // use public directory for static files (html)
+// API route
+app.use('/api', api); 
+
+// HTML routes
+app.use(express.static('public')); 
 
 // GET Route for homepage
 app.get('/', (req, res) =>
@@ -28,7 +31,7 @@ app.get('/notes', (req, res) =>
 //   res.sendFile(path.join(__dirname, 'public/404.html'))
 // );
 
-
+// LISTEN
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
