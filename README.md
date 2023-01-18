@@ -18,12 +18,13 @@ Use this application to write and save notes to organize your thoughts and keep 
 
 
 ## Usage
-1. Click "Get Started"
-2. Enter a Note Title and Note Text
-3. Click the "Save" icon
-4. To review a saved note, click on it from the list on the left
+1. Go to the [Deployed App](https://pacific-shelf-96569.herokuapp.com/)
+2. Click "Get Started"
+3. Enter a Note Title and Note Text
+4. Click the "Save" icon
+5. To review a saved note, click on it from the list on the left
     * While on a saved note, click the "+" icon to start a new note
-5. To delete a saved note, click on the "trash can" icon for that note
+6. To delete a saved note, click on the "trash can" icon for that note
 
 ## Technologies
 * Express
